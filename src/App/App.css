@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-container{
+  display: flex;
+  height: 40vmin;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.App-png{
+  background: aliceblue;
+  flex : 1 2 0;
+}
+
+.App-myself {
+  height: 100%;
+  pointer-events: none;
+}
+
+.App-intro{
+  background: blanchedalmond;
+  flex: 3 0 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.App-intro-cell{
+  height: 10em;
+  background: greenyellow;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-Nav{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Nav-container{
+  background: #282c34;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.App-Nav-item {
+  margin: 0em 3em;
+}
+
+.App-Work{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-Work-header-container{
+  display: flex;
+  height: 40vmin;
+}
+
+
+.App-Work-header-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-Work-project-container{
+  height: 60vmin;
+  display: flex;
+  flex-direction: row;
+}
+.App-Work-project-box{
+  display: flex;
+  flex-direction: row;
+}
+.App-work-project-img-file{
+  height: 10%;
+}
+.App-Work-project-detail{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+.App-Personal{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Personal-container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding : 0em 1em;
+}
+.App-Personal-youtube{
+  width: 50vw;
+  height: 30vw;
+}
+.App-Personal-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-Skill{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a:link, a:visited{
+  color : white;
+  text-decoration: none;
+}
