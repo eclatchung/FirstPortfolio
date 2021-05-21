@@ -1,7 +1,8 @@
-import {useEffect} from 'react';
 import {FullPage, Slide} from 'react-full-page';
 import myself from '../pic/myself.png';
 import './App.css';
+import Nav from "../Nav/Nav";
+import ETC from "../ETC/ETC";
 
 
 
@@ -35,46 +36,45 @@ function App() {
     ]
 
     return (
-        // <div className="App">
-        //     <header className="App-header">
-        //         <div className="App-container">
-        //         <div className="App-png">
-        //             <img src={myself} className="App-myself" alt="logo"/>
-        //         </div>
-        //         <div className="App-intro">
-        //                 <div className="App-intro-cell">✅ 백엔드 개발 1년차 개발자입니다.</div>
-        //                 <div className="App-intro-cell">✅ 사람들과 소통하는 것을 좋아합니다.</div>
-        //                 <div className="App-intro-cell">✅ 함께 공부하는 것을 좋아합니다! </div>
-        //         </div>
-        //         </div>
-        //     </header>
-        //     <div className="App-Navigation">
-        //         HI
-        //     </div>
-        // </div>
         <FullPage className="App">
-            <Slide className="App-header">
-                <div className="App-container">
+
+            <Slide className="App-home" id ="Home">
+                <div className="App-home-container">
                     <div className="App-png">
-                        <img src={myself} className="App-myself" alt="logo"/>
+                        <img src={myself} className="App-png" alt="logo"/>
                     </div>
                     <div className="App-intro">
-                        <div className="App-intro-cell">✅ 백엔드 개발 1년차 개발자입니다.</div>
-                        <div className="App-intro-cell">✅ 사람들과 소통하는 것을 좋아합니다.</div>
-                        <div className="App-intro-cell">✅ 함께 공부하는 것을 좋아합니다!</div>
+                        <div className="App-intro-cell">Welcome</div>
+                        <div className="App-intro-cell">to </div>
+                        <div className="App-intro-cell">eclat's portfolio</div>
+                        <div className="App-intro-cell">:-></div>
                     </div>
                 </div>
             </Slide>
-            <Slide className="App-Nav">
-                <div className="App-Nav-container">
-                    <div className="App-Nav-item"><a href="#Work">WORK</a></div>
-                    <div className="App-Nav-item"><a href="#Personal">PERSONAL</a></div>
-                    <div className="App-Nav-item"><a href="#Skill">SKILL</a></div>
-                    <div className="App-Nav-item"><a href="#ETC">ETC</a></div>
+
+
+            <Slide className="App-Basic" id="Intro">
+                <div className="App-Nav">
+                    <Nav isNow="Intro"/>
                 </div>
+                <section className="App-container">
+                </section>
             </Slide>
-            <Slide className="App-Work" id="Work">
-                <div className="App-Work-header-container">
+
+            <Slide className="App-Basic" id="Summary">
+                <div className="App-Nav">
+                    <Nav isNow="Summary"/>
+                </div>
+                <section className="App-container">
+                </section>
+            </Slide>
+
+
+            <Slide className="App-Basic" id="Work">
+                <div className="App-Nav">
+                    <Nav isNow="Work"/>
+                </div>
+                <section className="App-container">
                     <div className="App-Work-header-item">
                         <div>
                             NomadSoft
@@ -100,41 +100,43 @@ function App() {
                             - 백엔드팀 온보딩 문서 작성, 가산 맛집 정리 등 노션 활성화에 기여
                         </div>
                     </div>
-                </div>
-                <div className="App-Work-project-container">
-                        {workProjects.map((project,index)=>(
-                            <div className="App-Work-project-box">
-                            <div className="App-work-project-img">
-                                <img src={project.projectImg} className="App-work-project-img-file" alt="logo"/>
-                            </div>
-                            <div className="App-Work-project-detail">
-                                <div className="App-Work-project-name">
-                                    {project.projectName}
-                                </div>
-                                <div className="App-Work-project-time">
-                                    {project.projectTime}
-                                </div>
-                                <div className="App-Work-project-skill">
-                                    {project.projectSkill}
-                                </div>
-                                <div className="App-Work-project-role">
-                                    {project.projectRole}
-                                </div>
-                                <div className="App-Work-project-detail">
-                                {project.projectDescribe.map((detail,i)=>(
-                                        <div className="App-Work-project-detail-item">
-                                            {detail}
-                                        </div>
-                                ))}
-                                </div>
-                            </div>
-                            </div>
-                        ))}
-                </div>
+                </section>
+                {/*<div className="App-Work-project-container">*/}
+                {/*        {workProjects.map((project,index)=>(*/}
+                {/*            <div className="App-Work-project-box">*/}
+                {/*            <div className="App-work-project-img">*/}
+                {/*                <img src={project.projectImg} className="App-work-project-img-file" alt="logo"/>*/}
+                {/*            </div>*/}
+                {/*            <div className="App-Work-project-detail">*/}
+                {/*                <div className="App-Work-project-name">*/}
+                {/*                    {project.projectName}*/}
+                {/*                </div>*/}
+                {/*                <div className="App-Work-project-time">*/}
+                {/*                    {project.projectTime}*/}
+                {/*                </div>*/}
+                {/*                <div className="App-Work-project-skill">*/}
+                {/*                    {project.projectSkill}*/}
+                {/*                </div>*/}
+                {/*                <div className="App-Work-project-role">*/}
+                {/*                    {project.projectRole}*/}
+                {/*                </div>*/}
+                {/*                <div className="App-Work-project-detail">*/}
+                {/*                {project.projectDescribe.map((detail,i)=>(*/}
+                {/*                        <div className="App-Work-project-detail-item">*/}
+                {/*                            {detail}*/}
+                {/*                        </div>*/}
+                {/*                ))}*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            </div>*/}
+                {/*        ))}*/}
+                {/*</div>*/}
             </Slide>
-            <Slide className="App-Personal" id="Personal">
-                Personal
-                <div className="App-Personal-container">
+            <Slide className="App-Basic" id="Personal">
+                <div className="App-Nav">
+                    <Nav isNow="Personal"/>
+                </div>
+                <section className="App-container">
                     <div className="App-Personal-youtube">
                         <iframe className="App-Personal-youtube" src="https://www.youtube.com/embed/JCwe4TmahsI?autoplay=1&mute=1&loop=1"
                                 title="YouTube video player" frameBorder="0"
@@ -147,16 +149,15 @@ function App() {
                         <div className="App-Personal-detail-item"> 배찌 </div>
                         <div className="App-Personal-detail-item"> 배찌 </div>
                     </div>
-                </div>
+                </section>
             </Slide>
-            <Slide className="App-Skill" id="Skill">
-                Skill
-                <div className="App-Skill-container">
-
+            <Slide className="App-Basic" id="ETC">
+                <div className="App-Nav">
+                    <Nav isNow="ETC"/>
                 </div>
-            </Slide>
-            <Slide className="App-ETC" id="ETC">
-                ETC
+                <section className="App-container">
+                    <ETC/>
+                </section>
             </Slide>
         </FullPage>
     );

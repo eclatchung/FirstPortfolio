@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
+
+.App-home {
+  background-image: url("../pic/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,7 +14,7 @@
   color: white;
 }
 
-.App-container{
+.App-home-container{
   display: flex;
   height: 40vmin;
   flex-flow: row nowrap;
@@ -21,60 +22,50 @@
 }
 
 .App-png{
-  background: aliceblue;
+  height: 95%;
   flex : 1 2 0;
 }
 
-.App-myself {
-  height: 100%;
-  pointer-events: none;
-}
-
 .App-intro{
-  background: blanchedalmond;
   flex: 3 0 0;
+  justify-content: center;
   display: flex;
   flex-flow: column nowrap;
 }
 
 .App-intro-cell{
-  height: 10em;
-  background: greenyellow;
+  height: 1.2em;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.App-Nav{
-  background-color: #282c34;
+.App-Basic{
+  background-image: url("../pic/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg");
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-Nav-container{
-  background: #282c34;
-  display: flex;
-  flex-flow: row nowrap;
-}
-.App-Nav-item {
-  margin: 0em 3em;
+.App-Nav{
+  width: 20%;
 }
 
-.App-Work{
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-container{
+  overflow : scroll;
+  width: 80%;
+  min-height: 90vh;
+  background-color: rgba(245,205,208,0.7);
+  margin-right: 2%;
+  border-radius: 0% 10% 10% 0%;
 }
+
+
+
 .App-Work-header-container{
   display: flex;
   height: 40vmin;
@@ -104,16 +95,7 @@
   flex-direction: column;
   font-size: 1.3rem;
 }
-.App-Personal{
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-Personal-container{
   display: flex;
@@ -131,16 +113,7 @@
   align-items: center;
 }
 
-.App-Skill{
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 a:link, a:visited{
   color : white;

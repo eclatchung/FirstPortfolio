@@ -1,0 +1,22 @@
+.Nav {
+    background: rgba(182,178,199,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 90vh;
+    border-radius: 10% 0% 0% 10%;
+    margin-left: 10%;
+}
+
+
+
+
+.Nav-index-container{
+    font-size: 1em;
+}
+
+.Nav-index-container-item-now{
+    color : #8c7993;
+}
