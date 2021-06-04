@@ -1,0 +1,22 @@
+
+
+.Personal{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.Personal-github{
+    height: 1.8em;
+    width:  1.8em;
+}
+.Personal-detail{
+    font-size: 0.8em;
+    padding: 0.1em;
+}
+
+.Personal-name{
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 
@@ -10,8 +11,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 3vmin);
+  color: #FFFFFF;
 }
 
 .App-home-container{
@@ -31,6 +32,7 @@
   justify-content: center;
   display: flex;
   flex-flow: column nowrap;
+  font-family: 'SDSamliphopangche_Outline';
 }
 
 .App-intro-cell{
@@ -43,7 +45,7 @@
 
 .App-Basic{
   background-image: url("../pic/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg");
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -56,12 +58,15 @@
 }
 
 .App-container{
-  overflow : scroll;
   width: 80%;
-  min-height: 90vh;
+  height: 90vh;
+  color: #605D73;
   background-color: rgba(245,205,208,0.7);
   margin-right: 2%;
-  border-radius: 0% 10% 10% 0%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  border-radius: 10% 10% 10% 10%;
+  padding: 1em;
 }
 
 

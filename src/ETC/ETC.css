@@ -2,12 +2,15 @@
 
 .ETC{
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
     align-content: center;
+    justify-content: center;
+    margin-top: 40vh;
 }
 
 .ETC-item{
+    color : #605D73;
     margin-left: 10%;
     margin-right: 10%;
 }

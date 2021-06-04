@@ -1,0 +1,52 @@
+
+
+.WorkProject{
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+.WorkProject-projects-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.WorkProject-projects-container-cube{
+    width: 18em;
+    height: 15em;
+    margin: 0.5em;
+}
+
+.WorkProject-projects-container-cube-show{
+}
+
+.WorkProject-projects-container-cube-hover{
+    margin:1em;
+}
+
+.WorkProject-projects-container-cube-hover-detail{
+    align-content: center;
+    text-align: left;
+    font-size: 0.8em;
+    padding: 0.3em;
+}
+
+.WorkProject-projects-container-cube-pic{
+    width: 18em;
+    height: 15em;
+    color : whitesmoke;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    background-color: #FFFFFF;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+   background-size: contain;
+}
+.WorkProject-projects-container-cube-name{
+    padding-top : 50%;
+    padding-bottom:0.3em;
+}
+
+.WorkProject-projects-container-cube-etc{
+    font-size: 0.8em;
+}

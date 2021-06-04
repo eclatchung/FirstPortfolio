@@ -1,0 +1,67 @@
+
+.Company{
+    height: inherit;
+    width: inherit;
+}
+
+.Company-company-list{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Company-company-title{
+    text-align: left;
+    font-size: 0.8em;
+    padiing:0.6em;
+    margin-left: 0.3em;
+}
+.Company-company-name{
+    padding: 0.3em;
+}
+
+.Company-company-info{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 1em;
+}
+.Company-company-data{
+    width: 100%;
+    display: flex;
+    flex-flow:row nowrap;
+}
+.Company-company-data-detail{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: justify;
+    font-size: 0.6em;
+}
+.Company-company-data-title{
+    width: 30%;
+    font-size: 0.8em;
+}
+.Company-company-data-detail-time{
+    padding: 0.3em;
+}
+.Company-company-data-detail-job{
+    padding: 0.3em;
+}
+
+.Company-company-data-detail-intro{
+    font-size: 0.7em;
+    padding: 0.3em;
+}
+.Company-company-data-detail-intro-item{
+    padding: 0.3em;
+}
+
+.Company-company-back{
+    font-size: 0.5em;
+}
+
+.star{
+    padding-right:4px;
+}
