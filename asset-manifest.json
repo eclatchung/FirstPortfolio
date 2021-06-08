@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FirstPortfolio/static/css/main.2f6aa03d.chunk.css",
+    "main.js": "/FirstPortfolio/static/js/main.ecc0da95.chunk.js",
+    "main.js.map": "/FirstPortfolio/static/js/main.ecc0da95.chunk.js.map",
+    "runtime-main.js": "/FirstPortfolio/static/js/runtime-main.0cd552bb.js",
+    "runtime-main.js.map": "/FirstPortfolio/static/js/runtime-main.0cd552bb.js.map",
+    "static/js/2.5f7ff465.chunk.js": "/FirstPortfolio/static/js/2.5f7ff465.chunk.js",
+    "static/js/2.5f7ff465.chunk.js.map": "/FirstPortfolio/static/js/2.5f7ff465.chunk.js.map",
+    "static/js/3.4be3bb21.chunk.js": "/FirstPortfolio/static/js/3.4be3bb21.chunk.js",
+    "static/js/3.4be3bb21.chunk.js.map": "/FirstPortfolio/static/js/3.4be3bb21.chunk.js.map",
+    "index.html": "/FirstPortfolio/index.html",
+    "static/css/main.2f6aa03d.chunk.css.map": "/FirstPortfolio/static/css/main.2f6aa03d.chunk.css.map",
+    "static/js/2.5f7ff465.chunk.js.LICENSE.txt": "/FirstPortfolio/static/js/2.5f7ff465.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/FirstPortfolio/static/media/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.a16e8645.jpg",
+    "static/media/myself.1ccf09f8.png": "/FirstPortfolio/static/media/myself.1ccf09f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cd552bb.js",
+    "static/js/2.5f7ff465.chunk.js",
+    "static/css/main.2f6aa03d.chunk.css",
+    "static/js/main.ecc0da95.chunk.js"
+  ]
+}
